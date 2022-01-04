@@ -1,0 +1,9 @@
+version: "3.2"
+
+services:
+  cron:
+    image: cron
+    container_name: cron
+    volumes:
+      - ./:/var/www/html
+
